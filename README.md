@@ -20,6 +20,11 @@ pip install langchain langchain-community langchain-text-splitters
 pip install langchain-huggingface
 pip install faiss-cpu sentence-transformers pypdf requests
 ```
+### 1.1 Add .env
+
+```bash
+PROXY_BASE_URL=your_proxy_url
+```
 ### 2. Build the vertor Store
 
 ```bash
